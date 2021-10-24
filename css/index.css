@@ -159,6 +159,14 @@ input {
   padding-top: 54px;
 }
 
+.cards h4 {
+  padding-top: 30px;
+}
+
+.cards p {
+  padding-top: 13px;
+}
+
 .cards :nth-child(1) {
   margin-right: 36px;
 }
@@ -234,6 +242,7 @@ input {
   color: #ffffff;
   background-color: #ff9900;
   border-style: none;
+  margin-top: 34px;
 }
 
 /* block three */
