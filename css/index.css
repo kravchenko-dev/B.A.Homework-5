@@ -156,6 +156,7 @@ input {
   width: 1095px;
   height: 204px;
   margin: auto;
+  padding-top: 54px;
 }
 
 .cards :nth-child(1) {
@@ -222,10 +223,8 @@ input {
 }
 
 .card_button {
-  /* display: flex; */
   text-align: center;
   margin-left: 621px;
-  /* margin: auto; */
   width: 175px;
   height: 53px;
   border-radius: 4px;
@@ -367,27 +366,15 @@ input {
   vertical-align: bottom;
 }
 
-/* .footer_menu_left :first-child {
-  padding-top: 65px;
-} */
-
 .footer_menu_left {
-  /* width: 118px;
-  height: 205px; */
   margin-left: 126px;
-  /* display: flex;
-  align-items: flex-end; */
 }
 
 .footer_menu_right {
-  /* width: 131px;
-  height: 205px; */
   margin-left: 129px;
 }
 
 .footer_form {
-  /* width: 323px;
-  height: 199px; */
   margin: 193px 0 0 82px;
 }
 
