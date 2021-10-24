@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+body {
+  width: 1400px;
+  margin: auto;
+}
+
+/* header */
+
+a {
+  text-decoration: none;
+  color: #2f281e;
+}
+
+footer a {
+  color: #544837;
+}
+
+.navigation_list,
+.navigation_list li {
+  display: inline-block;
+  float: left;
+}
+
+.navigation {
+  float: right;
+}
+
+.logo {
+  margin: 22px 144px;
+}
+
+.navigation_list {
+  margin-top: 24px;
+}
+
+.navigation_list li {
+  margin-right: 27px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.navigation_list li:last-child {
+  margin-right: 54px;
+}
+
+.button_nav {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  width: 102px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  margin-top: 15px;
+  color: #173a56;
+  background-color: #ffffff;
+}
+
+.button_nav:last-child {
+  margin-right: 145px;
+  background-color: #ff9900;
+  color: #ffffff;
+}
+
+button,
+input {
+  cursor: pointer;
+}
+
+/* Block one */
+
+.block_one {
+  width: 1126px;
+  height: 496px;
+  margin: auto;
+}
+
+.block_one_img,
+.block_three_img,
+.block_four_article,
+.block_five_img {
+  float: right;
+}
+
+.block_one_article {
+  width: 518px;
+  height: 331px;
+}
+
+.block_one_article h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+  padding-top: 95px;
+}
+
+.block_one_article p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+  padding-top: 30px;
+}
+
+.block_one_button {
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+}
+
+.block_one_FirstButton {
+  width: 175px;
+  height: 53px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.block_one_TwoButton,
+.fa-play {
+  color: #ff9900;
+  background-color: #ffffff;
+}
+.fa-play {
+  margin-left: 28px;
+}
+
+/* Block two */
+
+.block_two {
+  padding-top: 116px;
+}
+
+.block_two h3 {
+  width: 539px;
+  height: 108px;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #2f281e;
+}
+
+.cards {
+  width: 1095px;
+  height: 204px;
+  margin: auto;
+  padding-top: 54px;
+}
+
+.cards h4 {
+  padding-top: 30px;
+}
+
+.cards p {
+  padding-top: 13px;
+}
+
+.cards :nth-child(1) {
+  margin-right: 36px;
+}
+
+.cards :nth-child(2) {
+  margin-right: 25px;
+}
+
+.cards :nth-child(3) {
+  margin-right: 44px;
+}
+
+.card {
+  float: left;
+  width: 250px;
+  height: 178px;
+}
+
+.cards :last-child {
+  width: 240px;
+}
+
+.card h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2f281e;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.card i {
+  color: #ffffff;
+  text-align: center;
+  border-radius: 19px;
+  width: 50px;
+  font-size: 16px;
+  height: 33px;
+  padding-top: 17px;
+  margin: auto;
+}
+
+.fa-mouse-pointer {
+  background-color: #7752be;
+}
+
+.fa-stumbleupon {
+  background-color: #fab005;
+}
+
+.fa-heart {
+  background-color: #f03e3d;
+}
+
+.fa-hourglass-half {
+  background-color: #4dadf7;
+}
+
+.card_button {
+  text-align: center;
+  margin-left: 621px;
+  width: 175px;
+  height: 53px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #ff9900;
+  border-style: none;
+  margin-top: 34px;
+}
+
+/* block three */
+
+.block_three {
+  width: 1110px;
+  height: 574px;
+  margin: auto;
+  padding-top: 118px;
+}
+
+.block_three_article,
+.block_five_article {
+  width: 486px;
+  height: 531px;
+  padding-top: 26px;
+}
+
+.block_three_article :nth-child(3),
+.block_four_article :nth-child(3),
+.block_five_article :nth-child(3) {
+  padding-top: 22px;
+}
+
+.block_three_article h3,
+.block_four_article h3,
+.block_five_article {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #2f281e;
+  padding-top: 3px;
+}
+
+.block_three_article p,
+.block_four_article p,
+.block_five_article p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #544837;
+}
+
+.block_three_article h5,
+.block_five_article h5 {
+  font-weight: 700;
+}
+
+.block_three_article_one,
+.block_five_article_one {
+  padding-top: 30px;
+}
+
+.block_three_article_two,
+.block_three_article_three,
+.block_five_article_two,
+.block_five_article_three {
+  padding-top: 25px;
+}
+
+/* block four */
+
+.block_four {
+  width: 1121px;
+  height: 521px;
+  margin: auto;
+  padding-top: 101px;
+}
+
+.block_four_img {
+  float: left;
+}
+
+.block_four_article {
+  width: 486px;
+  height: 427px;
+  padding-top: 46px;
+}
+
+.block_four_check {
+  width: 430px;
+  padding-top: 30px;
+}
+
+.block_four_check p {
+  float: right;
+  width: 365px;
+  height: 52px;
+}
+
+.fa-check {
+  font-size: 16px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border-radius: 14px;
+  width: 35px;
+  height: 23px;
+  padding-top: 12px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* block five */
+
+.block_five {
+  width: 1110px;
+  height: 609px;
+  margin: auto;
+  padding-top: 104px;
+}
+
+/* footer */
+
+.footer {
+  width: 1109px;
+  height: 308px;
+  margin: auto;
+  display: flex;
+  padding-bottom: 83px;
+}
+
+.footer_img {
+  padding-top: 102px;
+  width: 186px;
+  height: 32px;
+}
+
+.footer li {
+  list-style: none;
+  vertical-align: bottom;
+}
+
+.footer_menu_left {
+  margin-left: 126px;
+}
+
+.footer_menu_right {
+  margin-left: 129px;
+}
+
+.footer_form {
+  margin: 193px 0 0 82px;
+}
+
+.footer_menu_left,
+.footer_menu_right,
+.footer_form {
+  margin-top: 167px;
+}
+
+.footer_form input {
+  display: block;
+}
+
+.footer_form :first-child {
+  width: 325px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.footer_form :nth-child(2) {
+  margin-top: 21px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff9900;
+  width: 131px;
+  height: 39px;
+  border-radius: 4px;
+  border: none;
+}
